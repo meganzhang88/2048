@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>2048</title>
+
+        <!-- Include links to CSS stylesheets below -->
+        <!-- TODO (optional): Add link to bulma here -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+
+    <body>
+        <div class = "has-text-centered" id = "header">
+            <h1 class = "title has-text-white text-centered">2048</h1>
+            <div class= "info-div">
+                <h2 id ="score"class = "has-text has-margin-"></h2>
+                <button id="reset-button" class ="button is-danger">Reset</button>
+            
+            </div>
+            <p class="description has-text">Use the arrow keys to combine the tiles and get the 2048 tile!</p>
+            <div id="winLoseDiv"class = "info-div hidden" >
+                <h2 id ="winText" class ="has-text-success hidden">You've Won the Game! &nbsp</h2>
+                <h2 id="loseText" class ="has-text-danger hidden">The game is over :(</h2>
+
+            </div>
+        </div>
+            <div id="board" ></div>
+        <!-- Include links to JavaScript files below -->
+        <!-- TODO: Add link to jQuery here -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="engine/game.js"></script>
+        <script   src="controller.js" type="module"></script>
+    </body>
+</html>

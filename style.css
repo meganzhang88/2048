@@ -1,0 +1,102 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  overflow-y: auto;
+  font-size: 1.5em;
+  width: 100%;
+  height: 100%;
+  background-color: slateblue;
+  color:white;
+}
+
+#header {
+  font-family: fantasy;
+  margin: 10px;
+  color:white;
+}
+
+.info-div {
+  background-color: lightsteelblue;
+  border: thick solid lightsteelblue;
+  justify-content: center;
+  width: 450px;
+  height: 70px;
+  font-size: .7em;
+  color:white;
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+}
+button {
+  margin: 10px;
+  color:white;
+}
+#board {
+  margin: auto;
+  width: 450px;
+  height: 450px;
+}
+table {
+  margin: auto;
+  display: table;
+  background-color: #7f90bb;
+  color: white;
+}
+.spot {
+  display: table-cell;
+  /* border: thick solid #; */
+  margin: 2px;
+  box-sizing: border-box;
+  box-shadow: inset 0px 0px 0px 10px #667aae;
+
+  text-align: center;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+}
+
+.hidden{
+  display: none;
+}
+.description{
+  font-size: .75em;
+}
+
+.value2 {
+  background-color: #4c64a0;
+}
+.value4 {
+  background-color: #334e93;
+}
+
+.value8 {
+  background-color: #193885;
+}
+
+.value16 {
+  background-color: #002278;
+}
+
+.value32 {
+  background-color: #001e6c;
+}
+
+.value64 {
+  background-color: #001b60;
+}
+.value128 {
+  background-color: #001754;
+}
+.value256 {
+  background-color: #001448;
+}
+.value512 {
+  background-color: #00113c;
+}
+.value1024 {
+  background-color: #000d30;
+}
+.value2048 {
+  background-color: #000a24;
+}
